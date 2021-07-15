@@ -14,7 +14,7 @@ from main import *
 
 myq = np.array([[1/3,1/3,0],[0.5,0,0.5],[0.5,0,0]])
 my_inv = np.linalg.inv( np.identity(3) - myq )
-line1 = line( [2,3,4], np.dot( my_inv, [1,1,1] )  )
+line1 = line( [2,3,4], np.dot( my_inv, np.array([1,1,1]) )  )
 axislabels=["Initial state", "Expected number of steps till absorbtion"]
 
 class UnitTests(unittest.TestCase) :
