@@ -12,7 +12,9 @@ The transition matrix that corresponds to the Markov chain in the figure above i
 
 It is straightforward to show that the hitting probabilities can be calculated using:
 
-![](https://render.githubusercontent.com/render/math?math=\mathbf{h}=(\mathbf{I}-\mathbf{Q})^{-1}\mathbf{1})
+$$
+\mathbf{h}=(\mathbf{I}-\mathbf{Q})^{-1}\mathbf{1}
+$$
 
 In this expression, I is the identity matrix, 1 is a vector that contains all ones and Q is a matrix that describes the transition probablities between the transient states.  For the Markov chain whose transition matrix is given above Q is:
 
